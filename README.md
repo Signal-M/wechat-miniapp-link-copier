@@ -4,13 +4,9 @@
 > 支持 **macOS / Windows**，纯 Python + 图形界面，不需要微信开放平台权限，不需要任何服务端。
 
 <p align="center">
-  <a href="https://github.com/m2290526022-boop/wechat-miniapp-link-copier/blob/main/assets/demo.mp4">
-    <img src="assets/demo_cover.png" alt="点击播放演示视频" width="880">
-  </a>
+  <img src="assets/demo.gif" alt="演示：Excel 名单 → 微信搜索 → 复制链接 → 写回 Excel" width="900">
   <br>
-  <b>▶ 点击封面播放演示视频</b>（约 74 秒 / 6 MB，建议全屏观看）
-  <br>
-  <sub>播放不了的话直接下载：<a href="https://raw.githubusercontent.com/m2290526022-boop/wechat-miniapp-link-copier/main/assets/demo.mp4">raw demo.mp4</a></sub>
+  <sub>74 秒完整操作录屏，GIF 自动循环播放 · 想看高清版：<a href="https://github.com/m2290526022-boop/wechat-miniapp-link-copier/blob/main/assets/demo.mp4">demo.mp4（6.2 MB）</a></sub>
 </p>
 
 ---
