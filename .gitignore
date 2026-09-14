@@ -1,0 +1,14 @@
+# 虚拟环境 / 缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 运行时产物
+*.error.log
+
+# 标定坐标存在用户主目录（~/wechat_scraper_points.json），不在仓库内
+wechat_scraper_points.json
+
+# 系统文件
+.DS_Store
+Thumbs.db

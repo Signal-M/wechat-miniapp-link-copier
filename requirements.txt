@@ -1,0 +1,5 @@
+# 微信小程序链接批量采集器 —— 运行依赖
+# macOS 下 pyautogui 会自动拉入 pyobjc-framework-Quartz，无需手动安装。
+pyautogui>=0.9.54
+openpyxl>=3.1.0
+pyperclip>=1.8.0
