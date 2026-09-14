@@ -10,7 +10,7 @@
   <br>
   <b>▶ 点击封面播放演示视频</b>（约 74 秒 / 6 MB，建议全屏观看）
   <br>
-  <sub>不方便跳转可直接打开仓库内文件：<a href="assets/demo.mp4">assets/demo.mp4</a></sub>
+  <sub>播放不了的话直接下载：<a href="https://raw.githubusercontent.com/m2290526022-boop/wechat-miniapp-link-copier/main/assets/demo.mp4">raw demo.mp4</a></sub>
 </p>
 
 ---
