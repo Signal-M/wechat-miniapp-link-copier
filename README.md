@@ -4,11 +4,11 @@
 > 支持 **macOS / Windows**，纯 Python + 图形界面，不需要微信开放平台权限，不需要任何服务端。
 
 <p align="center">
-  <a href="https://m2290526022-boop.github.io/wechat-miniapp-link-copier/">
+  <a href="https://signal-m.github.io/wechat-miniapp-link-copier/">
     <img src="assets/demo.gif" alt="演示：Excel 名单 → 微信搜索 → 复制链接 → 写回 Excel" width="900">
   </a>
   <br>
-  <b>▶ <a href="https://m2290526022-boop.github.io/wechat-miniapp-link-copier/">高清版在线播放</a></b>
+  <b>▶ <a href="https://signal-m.github.io/wechat-miniapp-link-copier/">高清版在线播放</a></b>
   （74 秒完整录屏，可拖进度条 / 变速，浏览器内直接播，无需下载）
 </p>
 
@@ -35,7 +35,7 @@
 ### macOS
 
 ```bash
-git clone https://github.com/m2290526022-boop/wechat-miniapp-link-copier.git
+git clone https://github.com/Signal-M/wechat-miniapp-link-copier.git
 cd wechat-miniapp-link-copier
 ./setup_mac.sh        # 建虚拟环境 + 装依赖 + 自检
 ./run_mac.command     # 启动界面（或直接双击 run_mac.command）
@@ -49,7 +49,7 @@ cd wechat-miniapp-link-copier
 ### Windows
 
 ```bat
-git clone https://github.com/m2290526022-boop/wechat-miniapp-link-copier.git
+git clone https://github.com/Signal-M/wechat-miniapp-link-copier.git
 cd wechat-miniapp-link-copier
 setup_windows.bat     :: 建虚拟环境 + 装依赖 + 自检
 run_windows.bat       :: 启动界面
