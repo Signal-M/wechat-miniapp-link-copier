@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>演示视频 · 微信小程序链接批量采集器</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px 64px;
+    background: #f6f7f9; color: #1f2328;
+    font: 15px/1.7 -apple-system, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 6px; letter-spacing: .2px; }
+  .sub { color: #57606a; margin: 0 0 24px; font-size: 14px; }
+  .card {
+    background: #fff; border: 1px solid #d8dee4; border-radius: 12px;
+    padding: 12px; box-shadow: 0 1px 3px rgba(31,35,40,.06);
+  }
+  video {
+    display: block; width: 100%; height: auto; border-radius: 8px; background: #000;
+  }
+  .meta {
+    margin: 14px 2px 0; color: #57606a; font-size: 13px;
+    display: flex; flex-wrap: wrap; gap: 6px 18px;
+  }
+  .tags { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    background: #eef1f4; border: 1px solid #d8dee4; border-radius: 999px;
+    padding: 3px 11px; font-size: 12.5px; color: #3d444d;
+  }
+  .links { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .links a {
+    text-decoration: none; border: 1px solid #d8dee4; border-radius: 8px;
+    background: #fff; padding: 9px 15px; font-size: 14px; color: #1f2328;
+  }
+  .links a:hover { background: #f3f4f6; border-color: #b8c0c8; }
+  .links a.primary { background: #1f883d; border-color: #1f883d; color: #fff; }
+  .links a.primary:hover { background: #1a7734; }
+  .note {
+    margin-top: 26px; padding: 12px 16px; border-radius: 8px;
+    background: #fff8e5; border: 1px solid #f0d98a; color: #6b5900; font-size: 13.5px;
+  }
+  code { background: #eff1f3; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>演示视频 · 微信小程序链接批量采集器</h1>
+  <p class="sub">完整 74 秒实机操作：Excel 名单 → 微信搜索 → 打开小程序 → 复制链接 → 写回 Excel。</p>
+
+  <div class="card">
+    <video controls autoplay muted playsinline preload="metadata" width="1280" height="720">
+      <source src="demo.mp4" type="video/mp4">
+      你的浏览器不支持 HTML5 视频播放，请直接下载观看：<a href="demo.mp4">demo.mp4</a>
+    </video>
+  </div>
+
+  <div class="meta">
+    <span>时长 1:14</span>
+    <span>1280 × 720</span>
+    <span>H.264 / MP4</span>
+    <span>无音轨（可在静音环境放心播放）</span>
+  </div>
+
+  <div class="tags">
+    <span class="tag">macOS 实机录制</span>
+    <span class="tag">全自动搜索 + 复制链接</span>
+    <span class="tag">实时写回 data/结果.xlsx</span>
+  </div>
+
+  <div class="links">
+    <a class="primary" href="https://github.com/m2290526022-boop/wechat-miniapp-link-copier">← 返回仓库</a>
+    <a href="demo.mp4">下载原画质视频</a>
+    <a href="https://github.com/m2290526022-boop/wechat-miniapp-link-copier#readme">查看使用说明</a>
+  </div>
+
+  <div class="note">
+    为什么视频要放在这里播放？GitHub 会把 README 里的 <code>&lt;video&gt;</code> 标签过滤掉，
+    mp4 在 README 里点开只会下载；本页由 GitHub Pages 提供流式播放，可直接拖动进度条。
+    README 顶部另有一张会自动播放的 GIF 预览。
+  </div>
+</div>
+</body>
+</html>

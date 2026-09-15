@@ -4,9 +4,12 @@
 > 支持 **macOS / Windows**，纯 Python + 图形界面，不需要微信开放平台权限，不需要任何服务端。
 
 <p align="center">
-  <img src="assets/demo.gif" alt="演示：Excel 名单 → 微信搜索 → 复制链接 → 写回 Excel" width="900">
+  <a href="https://m2290526022-boop.github.io/wechat-miniapp-link-copier/">
+    <img src="assets/demo.gif" alt="演示：Excel 名单 → 微信搜索 → 复制链接 → 写回 Excel" width="900">
+  </a>
   <br>
-  <sub>74 秒完整操作录屏，GIF 自动循环播放 · 想看高清版：<a href="https://github.com/m2290526022-boop/wechat-miniapp-link-copier/blob/main/assets/demo.mp4">demo.mp4（6.2 MB）</a></sub>
+  <b>▶ <a href="https://m2290526022-boop.github.io/wechat-miniapp-link-copier/">高清版在线播放</a></b>
+  （74 秒完整录屏，可拖进度条 / 变速，浏览器内直接播，无需下载）
 </p>
 
 ---
@@ -151,7 +154,8 @@ wechat-miniapp-link-copier/
 ├── run_mac.command           # macOS 启动器（双击）
 ├── setup_windows.bat         # Windows 一键安装
 ├── run_windows.bat           # Windows 启动器（双击）
-├── assets/                   # 演示视频与封面
+├── assets/demo.gif           # README 内联自动播放的预览 GIF
+├── docs/                     # GitHub Pages 播放页（index.html + demo.mp4，点开即播）
 └── data/                     # 输入表 / 结果表（含真实采集样例）
 ```
 
